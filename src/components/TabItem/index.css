@@ -1,0 +1,15 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.tabButton {
+  color: #1e293b;
+  font-size: 16px;
+  margin-right: 10px;
+  background-color: transparent;
+  border: none;
+}
+
+.active-tab-item {
+  color: blue;
+  font-weight: bold;
+  border-bottom: 3px solid rgb(231, 108, 6);
+}

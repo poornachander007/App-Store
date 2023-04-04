@@ -1,0 +1,75 @@
+/* Write your CSS here */
+.app_container {
+  background-image: linear-gradient(#fff1eb, #ace0f9);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.heading {
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 39px;
+}
+
+@media (max-width: 768px) {
+  .app_container {
+    height: auto;
+  }
+  .heading {
+    font-size: 25px;
+  }
+}
+
+.searchInput_container {
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  align-items: center;
+  background-color: transparent;
+  padding: 3px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.searchInput {
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-weight: 700;
+  background-color: transparent;
+}
+
+.searchIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.tabItems_container {
+  display: flex;
+  padding: 10px;
+}
+
+.appItemsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.tabButton {
+  color: #1e293b;
+
+  font-size: 16px;
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: transparent;
+}

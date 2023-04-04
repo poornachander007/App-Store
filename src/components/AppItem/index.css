@@ -1,0 +1,36 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.appItem_cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.appImages {
+  width: 70px;
+  height: 70px;
+}
+
+@media (max-width: 768px) {
+  .appImages {
+    width: 50px;
+    height: 50px;
+  }
+  .appName {
+    font-size: 14px;
+  }
+}
+
+.appName {
+  color: black;
+  font-size: 17px;
+  font-weight: 800;
+  font-family: 'Roboto';
+}
